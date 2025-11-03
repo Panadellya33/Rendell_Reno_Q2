@@ -1,0 +1,26 @@
+a.link{
+    color: chartreuse;
+    text-decoration: none;
+}
+a.visited{
+    color: chartreuse;
+}
+a.hover{
+    color: crimson;
+    text-decoration: underline;
+}
+a.active{
+    color: black;
+}
+a.button{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px, 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a.button1:hover{
+    background-color: darkblue;
+    font-size: large;
+}

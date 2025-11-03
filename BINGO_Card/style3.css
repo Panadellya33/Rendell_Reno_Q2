@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: darkgray;
+    padding: 10px;
+    gap: 10px;
+}
+.container > div {
+    background-color: white;
+    border: 3px solid rgb(81, 80, 82);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item1{
+    grid-column: 1/ span 5;
+}
+.bingo-cell{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.bingo-cell:hover{
+    background-color: rgb(17, 136, 216);
+    transform: scale(1.5);
+}
